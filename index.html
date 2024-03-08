@@ -9,13 +9,12 @@
 </head>
 <body>
     <h1>NucleiFuzzer Web Interface</h1>
-    <form id="targetForm">
+    <form action="/run_nuclei_fuzzer" method="post" enctype="multipart/form-data">
         <label for="target">Enter target domain or upload file:</label>
         <input type="text" id="target" name="target" placeholder="e.g., example.com">
         <input type="file" id="fileInput" name="fileInput" accept=".txt">
         <button type="submit">Submit</button>
     </form>
     <div id="output"></div>
-    <script src="scripts.js"></script>
 </body>
 </html>
