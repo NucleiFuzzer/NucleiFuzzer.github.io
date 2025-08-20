@@ -38,7 +38,7 @@ h1 {
     padding: 0 20px;
 }
 
-.dalfox-container {
+.nucleifuzzer-container {
     position: absolute;
     top: 0;
     left: 0;
@@ -48,7 +48,7 @@ h1 {
     background: var(--primary-color);
 }
 
-.dalfox-container img {
+.nucleifuzzer-container img {
     min-width: 100%;
     min-height: 100%;
     position: absolute;
@@ -58,7 +58,7 @@ h1 {
     object-fit: cover;
 }
 
-.dalfox-container:after {
+.nucleifuzzer-container:after {
     content: '';
     z-index: 1;
     height: 100%;
