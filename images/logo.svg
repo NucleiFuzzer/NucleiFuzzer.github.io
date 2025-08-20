@@ -1,0 +1,26 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5cc8ff"></stop>
+      <stop offset="100%" stop-color="#8a5cff"></stop>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="220" fill="#0b0e14"></rect>
+  <g transform="translate(128,128)">
+    <rect x="0" y="0" width="768" height="768" rx="164" fill="#121826" stroke="url(#g)" stroke-width="12"></rect>
+    <g transform="translate(96,96)">
+      <!-- Hex frame -->
+      <path d="M288 0l249.4 144v288L288 576 38.6 432V144L288 0z" fill="none" stroke="url(#g)" stroke-width="22"></path>
+      <!-- Radar arcs -->
+      <circle cx="288" cy="288" r="210" fill="none" stroke="#5cc8ff" stroke-opacity=".25" stroke-width="12"></circle>
+      <circle cx="288" cy="288" r="140" fill="none" stroke="#5cc8ff" stroke-opacity=".25" stroke-width="10"></circle>
+      <circle cx="288" cy="288" r="70" fill="none" stroke="#5cc8ff" stroke-opacity=".25" stroke-width="8"></circle>
+      <!-- Sweep -->
+      <path d="M288 288 L 520 288 A232 232 0 0 0 288 56z" fill="url(#g)" fill-opacity=".35"></path>
+      <!-- Dot -->
+      <circle cx="520" cy="288" r="12" fill="#5cc8ff"></circle>
+      <!-- N letter -->
+      <path d="M160 420V156h34l204 206V156h42v264h-34L202 214v206h-42z" fill="#e6edf3"></path>
+    </g>
+  </g>
+</svg>
